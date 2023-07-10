@@ -208,3 +208,12 @@ nav li>a {
     text-align: center;
     margin-top: 50px;
 }
+
+/* Footer */
+
+footer {
+    margin-top: 100px;
+    background-color: #FFF8F3;
+    display: flex;
+    padding: 130px 230px;
+}
