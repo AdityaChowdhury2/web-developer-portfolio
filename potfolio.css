@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 main {
     max-width: 1140px;
     margin: 0px auto;
@@ -63,9 +64,8 @@ nav li>a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: ;
-    background-repeat: no-repeat;
-    background-position:
+
+    /* background-repeat: no-repeat; */
 
 }
 
@@ -241,5 +241,55 @@ textarea {
     border: 0;
     width: 100%;
 
+
+} 
+@media screen and (max-width:1200px){
+    .btn-primary{
+        margin-bottom: 15px;
+    }  
+}
+
+@media screen and (max-width:992px) {
+    .skill-container,.resume-container ,footer,.about-info-container,nav,nav>ul,.banner{
+        flex-direction: column;
+    }
+    .banner-profile{
+        width: 100%;
+    }
+    .banner-content{
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .header {
+        background-image: none;
+    }
+    nav>ul{
+        gap: 20px;
+    }
+
+    footer,.about{
+        padding: 30px;
+    }
+    #what-i-do ,.resume-container{
+        padding: 50px;
+    }
+    .footer-column {
+      width: 100%;
+    }
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea{
+    width: 94%;
+}
+    
+}
+@media screen and (max-width: 576px) {
+    .resume-container,.skill-container {
+        flex-direction: column;
+    }
+    #what-i-do ,.resume-container, .banner-content{
+        padding: 20px;
+    }
 
 }
